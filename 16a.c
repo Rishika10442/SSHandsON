@@ -15,7 +15,7 @@ Date - 28/08/24*/
 void lock_file(int fd,int type) {
     struct flock lock;
 
-    lock.l_type = F_WRLCK;
+    lock.l_type = type;
     lock.l_start = 0;  
     lock.l_whence = SEEK_SET;
     lock.l_len = 0;    
