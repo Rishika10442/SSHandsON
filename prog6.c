@@ -1,5 +1,9 @@
 //Write a program to take input from STDIN and display on STDOUT.
 // Use only read/write system calls
+/*Name - prog6.c
+Author-Rishika Gupta 
+Roll no - MT2024127
+Date - 07/08/24*/
 #include<stdio.h>
 #include <unistd.h>
 
@@ -14,3 +18,4 @@ if (bytes_read > 0) {
 
 return 0;
 }
+//hey 

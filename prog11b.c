@@ -2,6 +2,10 @@
 descriptors and check whether the file is updated properly or not.
 
 b. use dup2 */
+/*Name - prog11b.c
+Author-Rishika Gupta 
+Roll no - MT2024127
+Date - 13/08/24*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -43,3 +47,6 @@ int main() {
     return 0;
 }
 
+/*Original FD
+Duplicated FD
+*/

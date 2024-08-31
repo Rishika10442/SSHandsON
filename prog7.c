@@ -1,5 +1,8 @@
 //Write a program to copy file1 into file2 ($cp file1 file2)
-
+/*Name - prog7.c
+Author-Rishika Gupta 
+Roll no - MT2024127
+Date - 13/08/24*/
 #include<stdio.h>
 #include<fcntl.h>
 #include<unistd.h>
@@ -35,3 +38,4 @@ int y= close(fd_read);
 return 0;
 
 }
+//file name - samppledata1 testing data

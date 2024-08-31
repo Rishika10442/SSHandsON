@@ -9,6 +9,10 @@ g. number of blocks
 h. time of last access
 i. time of last modification
 j. time of last change */
+/*Author- Rishika Gupta 
+Name- prog9.c
+Roll no - MT2024127
+Date - 13/08/24*/
 
 #include <stdio.h>
 #include <sys/stat.h>
@@ -37,3 +41,15 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+/*File name : prog9.c
+Inode no : 1451335
+Number of hard links: 1
+UID: 1000
+GID: 1000
+Size: 1064 bytes
+Block size: 4096 bytes
+Number of blocks: 8
+Time of last access: Fri Aug 30 12:36:56 2024
+Time of last modification: Tue Aug 13 18:56:16 2024
+Time of last change: Tue Aug 13 18:56:16 2024
+*/

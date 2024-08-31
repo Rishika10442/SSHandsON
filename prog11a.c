@@ -1,7 +1,10 @@
 /* 11. Write a program to open a file, duplicate the file descriptor and append the file with both the
 descriptors and check whether the file is updated properly or not.
 a. use dup*/
-
+/*Name - prog11a.c
+Author-Rishika Gupta 
+Roll no - MT2024127
+Date - 13/08/24*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
@@ -64,4 +67,7 @@ int main() {
 
     return 0;
 }
+
+//Original FD
+//Duplicated FD
 
